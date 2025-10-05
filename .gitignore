@@ -1,0 +1,14 @@
+# Go Binaries and Dependencies
+**/*.exe
+**/*.bin
+**/*.o
+
+# Go Cache and Compiled Files
+/chaincode-go/vendor
+/rest-api/vendor
+
+# Ignore Go build cache
+/bin/
+/pkg/
+.idea/
+.vscode/
